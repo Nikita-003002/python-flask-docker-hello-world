@@ -1,7 +1,0 @@
-FROM Python:3.12
-
-COPY ./app
-
-RUN pip install -r requirements.txt
-ENRTYPOINT ["python"]
-CMD ["app.py"]
